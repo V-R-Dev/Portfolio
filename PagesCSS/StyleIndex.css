@@ -1,0 +1,489 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(210, 210, 210, 0.444) 100%;  
+    font-family: sans-serif;
+}
+
+#MenuPrincipale {
+    width: auto;
+    height: 75px;
+}
+
+#MesBouttons {
+    width: auto;
+    height: 110px;;
+    margin-bottom: 10px;
+}
+
+#BouttonGauche {
+    float: left;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-left : 95px solid rgb(159, 159, 159);
+}
+
+.LeftImage, .LeftLink {
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+#BouttonDroite {
+    float: right;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-right : 95px solid rgb(159, 159, 159);
+}
+
+.RightImage, .RightLink {
+    right: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+#En-tete {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    height: 70px;
+    border-bottom: 5px solid; /*Taille de la bordure*/
+    border-color:aquamarine; /*Couleur de la bordure*/
+    background-color: rgb(175, 175, 175); /*Couleur de la div*/
+}
+.titre {
+    width: 355px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Presentation {
+    width: auto;
+    height: 285px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.textePresentation {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+    height: fit-content;
+    font-size: 22px;
+}
+
+.texteInformations {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+    height: fit-content;
+    font-size: 22px;
+}
+
+.texteCertifications {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+    height: fit-content;
+    font-size: 22px;
+}
+
+.texteApprentissage {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+    height: fit-content;
+    font-size: 22px;
+}
+.texte {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 35px;
+    height: fit-content;
+    font-size: 20px;
+}
+.texteModal {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 100px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.FermerMenu {
+    width: fit-content;
+    height: 20px;
+}
+
+#InfosComplementaire {
+    width: auto;
+    height: 350px;
+    margin-bottom: 150px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#CompetencesCertifiees{
+    width: auto;
+    height: 285px;
+    margin-bottom: 150px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#CompetencesTechnique {
+    width: auto;
+    height: 285px;
+    margin-bottom: 150px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Footer {
+    width: 83%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    float: right;
+    border-radius: 12rem 0 0 12rem;
+    bottom: 0px;
+    text-align: right;
+}
+.CopyRight {
+    width: 350px;
+    float: left;
+    color: beige;
+    padding-right: 15px;
+}
+
+.MentionsLegales {
+    width: 200px;
+    float: right;
+    position: relative;
+    right: 25px;
+    color: beige;
+    vertical-align: text-bottom;
+    transition: 1s;
+}
+.MentionsLegales:hover {
+    background-color: rgb(104, 145, 206);
+    border-radius: 5px;
+    transition: ease;    
+}
+
+#Social-Media {
+    background: linear-gradient(rgba(0, 0, 255, 0.623), aquamarine);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    transition: 2s;
+    bottom: 50px;
+    position: relative;
+    left: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Social-Media:hover {
+    background: linear-gradient(rgba(0, 0, 255, 0.623), aquamarine);
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    position: relative;
+    transition: 2s;
+    bottom: 145px;
+}
+
+.Mes-Sites {
+    width: 20px;
+    height: 20px;
+}
+
+.Mes-Sites:hover {
+    cursor: pointer;
+
+}
+
+#Bouton-Websites{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(246, 255, 0);
+    border-radius: 50%;
+    border-style: none;
+}
+
+.Mon-Logo-1 {
+    padding-top: 5px;
+}
+
+#Website {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(198, 255, 237, 0.758), rgba(232, 255, 150, 0.792));
+    transition: opacity 3s;
+    opacity: 0;
+    bottom: 20px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+#Logowebsite {
+    transition: opacity 2s;
+    opacity: 0;
+    text-align: center;
+}
+
+.Logo-Site-1, .Logo-Site-2, .Logo-Site-3, .Logo-Site-4, .Logo-Site-5 {
+    position: relative;
+    left: 50px;
+}
+
+.Logo-Site-1 {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.qualite {
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    position: relative;
+    bottom: 55px;
+    margin: 40px;
+}
+
+.CertificationPix {
+    max-width: 125px;
+    max-height: 125px;
+    position: relative;
+    bottom: 40px;
+    transition: 1s;
+    border-radius: 10px;
+    display: block;
+}
+
+.CertificationPix:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.CertificationOC {
+    max-width: 175px;
+    max-height: 125px;
+    position: relative;
+    bottom: 40px;
+    transition: 1s;
+    border-radius: 10px;
+    display: block;
+}
+
+.CertificationOC:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.CertificationCAN {
+    max-width: 150px;
+    max-height: 100px;
+    position: relative;
+    bottom: 40px;
+    transition: 1s;
+    border-radius: 10px;
+    display: block;
+}
+
+.CertificationCAN:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.ScreenShotCAN {
+    width: 90%;
+    height: auto;
+}
+.CertificationRM{
+    max-width: 150px;
+    max-height: 100px;
+    position: relative;
+    bottom: 40px;
+    transition: 1s;
+    border-radius: 10px;
+    display: block;
+}
+
+.CertificationRM:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+.Langage {
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    bottom: 40px;
+    transition: 1s;
+    border-radius: 10px;
+    display: block;
+}
+
+.Langage:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.Modal1, .Modal2, .Modal3, .Modal4, .Modal5, .Modal6, .Modal7, .Modal8, .Modal9, .Modal10, .Modal11 {
+    position:fixed;
+    top: 7%;
+    right: 5%;
+    background-color: rgb(206, 206, 206);
+    width: 1210px;
+    height: 575px;
+    z-index: 2;
+    display: none;
+    border-radius: 2%;
+}
+
+.Modal1.active, .Modal2.active, .Modal3.active, .Modal4.active, .Modal5.active, .Modal6.active, .Modal7.active, .Modal8.active, .Modal9.active, .Modal10.active, .Modal11.active {
+    transform: initial;
+    display: block;
+}
+.Cross {
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+}
+.LogoModalCertification {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 0.4s transform linear;
+}
+
+.LogoModalLangage{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 0.4s transform linear;
+}
+.Background, .Background2, .Background3, .Background4, .Background5, .Background6, .Background7, .Background8,  .Background9, .Background10, .Background11{
+    position: fixed;
+    background-color: rgba(110, 110, 110, 0.637);
+    width: 1000vw;
+    height: 1000vh;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.Background.active, .Background2.active, .Background3.active, .Background4.active, .Background5.active, .Background6.active, .Background7.active {
+    display: block;
+    backdrop-filter: blur(7px);
+}
+
+#bouttonContact {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+}
+.contactLogo {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.ScreenPHP {
+    width: 63%;
+    height: 390px;
+}
+.PythonScreen {
+    width: 975px;
+    height: 325px;
+    top: 50px;
+    position: relative;
+}
+.ScreenCsharp {
+    width: 800px;
+    height: 385px;
+}
+.PixScreenShoot {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.ScreenJava {
+    width: 500px;
+    height: 385px;
+}
+.ScreenJavaScript {
+    width: 600px;
+    height: 370px;
+
+}
+.NodeJSScreenShoot {
+    width: 500px;
+    height: 375x;
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,471 @@
+html, body {
+    margin: 0px;
+    padding: 0px;    
+    background: rgba(210, 210, 210, 0.444) 100%;  
+    font-family: sans-serif;
+}
+
+#MenuPrincipale {
+    width: auto;
+    height: 75px;
+}
+
+#MesBouttons {
+    width: auto;
+    height: 110px;;
+    margin-bottom: 10px;
+}
+
+#BouttonGauche {
+    float: left;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-left : 95px solid rgb(159, 159, 159);
+}
+
+.LeftImage, .LeftLink {
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+#En-tete {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    height: 70px;
+    border-bottom: 5px solid; /*Taille de la bordure*/
+    border-color:aquamarine; /*Couleur de la bordure*/
+    background-color: silver; /*Couleur de la div*/
+}
+
+#FormationPresentation {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#StagesContainer {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+.StageParagraphe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.FirstStageParagraphe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.SecondStageParagraphe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.texte {
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 14px;
+    font-size: 22px;
+}
+
+#ImageContainer {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+}
+.SoftwareImg {
+    height: 275px;
+    padding-right: 20px;
+}
+
+.ServerImg {
+    padding-left: 20px;
+}
+#AnneeBTS {
+    display: inline-block;
+    width: 100%;
+    height: 1900px;
+    text-align: center;
+}
+#BTSSIO1 {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+.titre {
+    position: relative;
+    top: 40px;
+}
+.TexteAnnee {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 86%;
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+}
+
+#BTSSIO2 {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    right: 0;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Realisation {
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+}
+#ProjetGSB {
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#ProjetPassePartout {
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;   
+}
+#ProjetGestCulture {
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+}
+.TitreProjet {
+    display: block;
+}
+.ParagrapheProjet {
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+}
+.GSBLogo {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+}
+#Notions2 {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+.TexteNotion {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -40px;
+}
+#EpreuvesPresentation {
+    width: 100%;
+    height: 500px;
+}
+#EpreuvesIntroduction {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Specialisation {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+}
+#SLAM {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#SISR {
+    width: 50%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    right: 0;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+.TexteSpe {
+    position: relative;
+    top: 35px;
+    width: 85%;
+    left: 50px;
+    font-size: 18px;
+}
+
+#Epreuves1 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+#EpreuveGen1 {
+    float: left;
+    width: 100%;
+    height: 285px;
+    margin-bottom: 45px;
+    position: absolute;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+#Epreuves2 {
+    float: right;
+    width: 50%;
+    height: 525px;
+    position: relative;
+}
+#EpreuveGen2 {
+    float: right;
+    width: 100%;
+    height: 285px;
+    position: relative;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+#EpreuveSpe {
+    float: left;
+    width: 100%;
+    height: 285px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/presentation.png");
+    background-position: 100%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.titreEpreuve {
+    position: relative;
+    top: 35px;
+}
+.ListEpreuvesGen2, .ListEpreuveSpe2 {
+    font-size: 15px;
+    width: 80%;
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+#Footer {
+    width: 83%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    float:right;
+    border-radius: 12rem 0 0 12rem;
+    bottom: 0px;
+    text-align: right;
+}
+.CopyRight {
+    width: 350px;
+    float: left;
+    color: beige;
+    padding-right: 15px;
+}
+
+.MentionsLegales {
+    width: 200px;
+    float: right;
+    position: relative;
+    right: 25px;
+    color: beige;
+    vertical-align: text-bottom;
+    transition: 1s;
+}
+.MentionsLegales:hover {
+    background-color: rgb(104, 145, 206);
+    border-radius: 5px;
+    transition: ease;    
+}
+
+.Modal1, .Modal2, .Modal3 {
+    position:fixed;
+    top: 7%;
+    right: 5%;
+    background-color: rgb(206, 206, 206);
+    width: 1210px;
+    height: 575px;
+    z-index: 2;
+    display: none;
+    border-radius: 2%;
+}
+
+.Modal1.active, .Modal2.active, .Modal3.active {
+    transform: initial;
+    display: block;
+}
+
+.Cross {
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+}
+
+.FermerMenu {
+    width: fit-content;
+    height: 20px;
+}
+
+.GSBScreenShot {
+    width: 475px;
+    height: 325px;
+}
+
+.GSBScreenShot2 {
+    width: 645px;
+    height: 440px;
+}
+.texteModal {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#ContainerGSB, #ContainerPassePartout, #GestCultureContainer {
+    width: auto;
+    height: 285px;
+    margin-bottom: 50px;
+    background-image: url("../images/presentation.png");
+    background-position: 50%;
+    color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: center;
+}
+
+.ProjetPresentation {
+    position: relative;
+    width: 155px;
+    height: 125px;
+    top: 75px;
+}
+
+.ProjetPresentation:hover {
+    cursor: pointer;
+    background-color: #585858b0;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.PassePartoutScreenShot {
+    width: 750px;
+    margin-top: 15px;
+    height: 375px;
+}
+.PasseGestCulture {
+    width: 560px;
+    height: 445px;
+}

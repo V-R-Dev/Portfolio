@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!--"!" permet de générer automatiquement la structure de la page html-->
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+            <link rel="stylesheet" href="PagesCSS/StyleIndex.css">
+            <title>Accueil</title>
+        </head>
+
+        <body>
+            <header id="MenuPrincipale">
+                <div id="En-tete">
+                </div>  
+            </header>
+
+            <nav id="MesBouttons">
+                <div id="BouttonGauche">
+                    <a href="PagesHTML/Formation.html" class="LeftLink"><img src="images/graduation-hat.png"  alt="Ma Formation" class="LeftImage"></a>
+                </div>    
+
+                <div id="BouttonDroite">
+                    <a href="PagesHTML/Informations.html" class="RightLink"><img src="images/case-study.png" class="RightImage"></a>
+                </div>
+            </nav>
+
+            <div id="Presentation">
+                <h2 class="titre">Ma Présentation :</h2>
+                <br>
+                <p class="textePresentation">Je m'appelle Victor Ramos. Je suis un étudiant de 20 ans, en 2ème année de BTS SIO (Services Informatiques aux Organisations) et je vais vous présenter les compétences acquises en option SLAM (Solutions Logicielles Applications Métie)rs). Je vais donc lister et détailler les langages de programmations enseignés, les projets mis en place au cours de l'année, les notions en cybersécurité présentées et diverses notions importantes relatives au BTS.</p>
+            </div>
+
+            <div id="InfosComplementaire">
+                <h2>Compléments d'informations :</h2>
+                <p class="texteInformations">En raison de mon statut d'étudiant j'ai appris à m'adapater aux méthodes d'enseignement. Je suis devenu autonome au fil de mes études. Je suis aussi quelqu'un de persévérant et qui ne se décourage pas. Je m'adapte à mon environnement. Je cherche à m'améliorer et j'ai également appris à faire preuve de curiosité en dehors de mes cours reflétant mon autodidactie.</p>
+
+                <img src="images/perseverant.jpg" class="qualite">  
+                
+                <img src="images/multitache.jpg" class="qualite">
+                
+                <img src="images/autonome.jpg" class="qualite">
+                
+                <img src="images/curieux.jpg" class="qualite">
+                
+                <img src="images/autodidacte.jpg" class="qualite">
+            </div>
+
+            <div id="CompetencesCertifiees">
+                <h2>Mes certifications ...</h2>
+                <br>
+                <p class="texteCertifications">Visualisez l'ensemble de mes certifications :</p>
+                
+                <div class="LogoModalCertification" onclick="Modal1()">
+                    <img src="images/PixLogo.png" class="CertificationPix"> 
+                </div>    
+                    <div class="Modal1">
+                        <div class="FermerMenu" onclick="Modal1()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">Pix : Il s'agit d'un service public français afin de permettre à ceux qui le veulent d'améliorer leurs compétences en matière d'informatique au sens large.</p>
+                        <br><br>
+                        <img src="images/Pix-Screen.png" class="PixScreenShoot">
+                    </div>
+
+                <div class="LogoModalCertification" onclick="Modal2()">
+                    <img src="images/LogoOpenClassroom.png" class="CertificationOC"> 
+                </div>
+                    <div class="Modal2">
+                        <div class="FermerMenu" onclick="Modal2()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">OpenClassroom : Ce site offre la possibilité pour toute personne qui désir se former à la programmation ou à d'autres domaines en lien avec l'informatique tel que l'apprentissage d'un système ou bien d'un framework pour développer.</p>
+                        <br><br>
+                        <img src="images/OpenClassroomScreenShot.png" class="OpenClassroomScreenShot">
+                    </div>
+
+
+                <div class="LogoModalCertification" onclick="Modal3()">
+                    <img src="images/CAN.png" class="CertificationCAN"> 
+                </div>
+                <div class="Modal3">
+                        <div class="FermerMenu" onclick="Modal3()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">Cisco Network Academy : Est à l'origine une entreprise qui à su diversifié au fur et à mesure des années, désormais acteur dans le monde ce la cybersécuriter, Cisco Network Academy propose des formation pour s'instruire sur des langages de programmation ou des concepts tel que les IoT (Internet of Things).</p>
+                        <br><br>
+                        <img src="images/CertificationCAN.png" class="ScreenShotCAN">
+                    </div>                
+            </div>
+            <br>
+            <div id="CompetencesTechnique">
+                <h2>... Et mes apprentissages !</h2>
+                <br>
+                <p class="texteApprentissage">Visualisez l'ensemble de mes apprentissages :</p>
+
+                <div class="LogoModalLangage" onclick="Modal5()">       
+                    <img src="images/JavaLogo.png" class="Langage">
+                </div>
+                    <div class="Modal5">
+                        <div class="FermerMenu" onclick="Modal5()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">Java : Langage dont la phylosophie et de pouvoir fonctionner sur différent type de système, j'ai eu la possibilité durant mes deux années de formation de m'initier au langage pour comprendre son fonctionnement en partie.</p>
+                        <br><br>
+                        <img src="images/ScreenJava.png" class="ScreenJava">
+                    </div>
+
+
+                <div class="LogoModalLangage" onclick="Modal6()">    
+                    <img src="images/PythonLogo.png" class="Langage">
+                </div>
+                    <div class="Modal6">
+                        <div class="FermerMenu" onclick="Modal6()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">Python : Langage que j'ai pu découvrir à travers mes cours de mathématiques pour élargir mes compétences mais aussi visualiser son application dans le domaine mathématique et scientifique.</p>
+                        <br><br>
+                        <img src="images/ScreenShootPython.png" class="ScreenPython"> 
+                    </div>
+
+                    
+                <div class="LogoModalLangage" onclick="Modal7()">        
+                    <img src="images/CsharpLogo.png" class="Langage"> 
+                </div>
+                    <div class="Modal7">
+                        <div class="FermerMenu" onclick="Modal7()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                        <p class="texteModal">C# : Langage de programmation que j'ai étudié en partie pendant mes deux ans afin de mettre en applications de nouvelles notions et de pouvoir consolider les anciennes.</p>
+                        <br><br>
+                        <img src="images/CsharpScreen.png" class="ScreenCsharp">
+                    </div>
+
+                <div class="LogoModalLangage" onclick="Modal8()">        
+                    <img src="images/PHPLogo.png" class="Langage"> 
+                </div>
+                    <div class="Modal8">
+                        <div class="FermerMenu" onclick="Modal8()">
+                            <img src="images/croix.svg" class="Cross">
+                        </div>
+                            <p class="texteModal">PHP Hypertext Preprocessor: Ce langage executé côté serveur m'a été enseigné durant deux an afin d'être capable de communiquer avec les serveurs pour envoyer ou recevoir des données à l'aide de mes applications web.</p>
+                        <br><br>
+                            <img src="images/ScreenShotPHP.png" class="ScreenPHP">
+                    </div>
+
+                    <div class="LogoModalLangage" onclick="Modal9()">        
+                        <img src="images/JavaScriptLogo.png" class="Langage"> 
+                    </div>
+                        <div class="Modal9">
+                            <div class="FermerMenu" onclick="Modal9()">
+                                <img src="images/croix.svg" class="Cross">
+                            </div>
+                                <p class="texteModal">javascript : Langage qui s'execute côté client et qui permet de nombreuses choses tel que l'ajout de fonctionnalité grâce à des scripts pour l'application web ou bien certaines mesures de cybersécurité mineures.</p>
+                            <br><br>
+                                <img src="images/ScreenShotJavaScript.png" class="ScreenJavaScript">
+                        </div>
+                            
+                    <div class="LogoModalLangage" onclick="Modal10()">        
+                        <img src="images/NodeJSLogo.png" class="Langage"> 
+                    </div>
+                        <div class="Modal10">
+                            <div class="FermerMenu" onclick="Modal10()">
+                                <img src="images/croix.svg" class="Cross">
+                            </div>
+                                <p class="texteModal">NodeJS : Langage qui s'inspire de JavaScript mais celui s'execute côté serveur, j'ai appris au cours de ma seconde année à mettre en place une application web avec NodeJS fonctionnant à la manière d'un serveur.</p>
+                            <br><br>
+                                <img src="images/ScreenShootNodeJS.png" class="ScreenNodeJS">
+                        </div>
+                        
+                    <div class="LogoModalLangage" onclick="Modal11()">        
+                        <img src="images/SQLsh.svg" class="Langage"> 
+                    </div>
+                        <div class="Modal11">
+                            <div class="FermerMenu" onclick="Modal11()">
+                                <img src="images/croix.svg" class="Cross">
+                            </div>
+                                <p class="texteModal">SQL (Structured Query Langage) : Langage dont le rôle est avant tout d'assurer la communication entre client et base de données afin de pouvoir manipuler les données collectés, traités et stockés au moyen de requêtes.</p>
+                            <br><br>
+                                <img src="images/ScreenShotSQL.png" class="ScreenSQL">
+                        </div>
+            </div>
+
+            <div id="bouttonContact">
+                <a href="PagesHTML/Contact.html" class="boutonContact"><img src="./images/contact.svg" class="contactLogo"></a>
+            </div>
+
+            <div id="Footer">
+                <p class="CopyRight">CopyRights © 2022-2023 Tous droits reservés.</p>
+                <a href="PagesHTML/MentionsLegales.html"><p class="MentionsLegales"><i>Les mentions légale du site</i></p></a>
+            </div>
+                
+            <div class="Background" onclick="Modal1()"></div>
+            <div class="Background2" onclick="Modal2()"></div>
+            <div class="Background3" onclick="Modal3()"></div>
+            <div class="Background4" onclick="Modal4()"></div>
+            <div class="Background5" onclick="Modal5()"></div>
+            <div class="Background6" onclick="Modal6()"></div>
+            <div class="Background7" onclick="Modal7()"></div>
+            <div class="Background8" onclick="Modal8()"></div>
+            <div class="Background9" onclick="Modal9()"></div>
+            <div class="Background10" onclick="Modal10()"></div>
+            <div class="Background11" onclick="Modal11()"></div>
+
+            <script src="PagesJavaScript/FonctionnaliteIndex.js" type="text/javascript"></script> 
+        </body>
+    </html>

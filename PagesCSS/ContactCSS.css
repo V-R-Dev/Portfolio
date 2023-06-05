@@ -1,0 +1,119 @@
+html, body {
+    margin: 0px;
+    padding: 0px;    
+    background: rgba(210, 210, 210, 0.444) 100%;  
+    font-family: sans-serif;
+}
+
+#MenuPrincipale {
+    width: auto;
+    height: 75px;
+}
+
+#MesBouttons {
+    width: auto;
+    height: 110px;;
+    margin-bottom: 10px;
+}
+
+#BouttonGauche {
+    float: left;
+    height : 95;
+    width : 110;
+    border-top : 55px solid transparent;
+    border-bottom : 55px solid transparent;
+    border-left : 95px solid rgb(159, 159, 159);
+}
+
+.LeftImage, .LeftLink {
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+#En-tete {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    height: 70px;
+    border-bottom: 5px solid; /*Taille de la bordure*/
+    border-color:aquamarine; /*Couleur de la bordure*/
+    background-color: silver; /*Couleur de la div*/
+}
+
+#ContactParagraphe {
+    width: 500px;
+    height: 175px;
+    margin: auto;
+    background-color: rgb(130, 130, 130);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.ParagrapheContact {
+    text-align: center;
+    font-size: 20px;
+    float: inline-end;
+    margin-top: 20px;
+}
+
+#ListContact {
+    width: 500px;
+    height: 325px;
+    margin: auto;
+    background-color: rgb(130, 130, 130);
+    border-radius: 25px;   
+    margin-bottom: 50px;
+}
+
+.TitreContact {
+    text-align: center;
+}
+
+.ContactList { 
+    font-size: 20px;
+    float: inline-start;
+    text-align: none;
+}
+
+.btnContact {
+    background-color: rgb(165, 255, 130);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btnContact:hover {
+    cursor: pointer;
+}
+#Footer {
+    width: 83%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    float:right;
+    border-radius: 12rem 0 0 12rem;
+    bottom: 0px;
+    text-align: right;
+}
+.CopyRight {
+    width: 350px;
+    float: left;
+    color: beige;
+    padding-right: 15px;
+}
+
+.MentionsLegales {
+    width: 200px;
+    float: right;
+    position: relative;
+    right: 25px;
+    color: beige;
+    vertical-align: text-bottom;
+    transition: 1s;
+}
+.MentionsLegales:hover {
+    background-color: rgb(104, 145, 206);
+    border-radius: 5px;
+    transition: ease;    
+}
